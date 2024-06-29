@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 // データベース接続のパスワードが漏れるため関数化しちゃった
-// string connectionString = DatabaseConfig.ConnectionString;でコネクション
+// string connectionString = DatabaseConfig.ConnectionString;を最初に宣言しておく
 namespace WindowsFormsApp1
 {
     internal class DatabaseConfig
